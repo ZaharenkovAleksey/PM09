@@ -19,12 +19,12 @@ function Header({ setPage, setModalBox, token, setToken }) {
     <div className="Header">
       <ul>
 
-       <img width="90px" src=""></img>
+       <img width="80px" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Porsche_hood_emblem.png"></img>
         <li onClick={() => setPage('Main')}>Главная</li>
         <BasketLink />
       </ul>
       <UserBox setModalBox={setModalBox} token={token} setToken={setToken} setPage={setPage} />
-            <img width="90px" src=""></img>
+            <img width="80px" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Porsche_hood_emblem.png"></img>
     </div>
 
   );
