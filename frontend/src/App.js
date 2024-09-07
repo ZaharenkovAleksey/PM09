@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-            <a href="*" ><img class="image1" width="18%" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Porsche_hood_emblem.png"></img></a>
+            <a href="*" ><img class="image1" width="10%" src="https://upload.wikimedia.org/wikipedia/commons/4/44/Porsche_hood_emblem.png"></img></a>
       <Header setPage={setPage} setModalBox={setModalBox} token={token} setToken={setToken} />
       {pages[page]}
       {modalBoxes[modalBox]}
