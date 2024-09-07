@@ -2,7 +2,7 @@
 
 .Product {
     border-radius: 30px;
-    border-color: black;
+    border-color: rgb(255, 255, 255);
     border-style: solid;
     background-color: rgb(255, 255, 255);
     width: 250px;
@@ -34,12 +34,12 @@
 .Product .buy {
     border-radius: 100px;
     margin-left: -5px;
-    height: 30px;
+    height: 35px;
     width: 200px;
     border-style: solid;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    font-size: 10pt;
+    font-size: 16pt;
 }
 
 .Product .buy:hover {

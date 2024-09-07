@@ -8,7 +8,7 @@ function Product({ id, image, title, price, setBasket, setBasketPrice, setBasket
     id: id,
     image: image,
     title: title,
-    price: price
+    
   }
 
   function addToBasket() {

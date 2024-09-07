@@ -11,20 +11,6 @@ function ProductBasket({ id, image, title, price, setBasket, setBasketPrice, set
     setBasketQty(current => current - qty)
   }
 
-  function plus() {
-    setQty(current => current + 1)
-    setBasketPrice(current => current + price)
-    setBasketQty(current => current + 1)
-  }
-
-  function minus() {
-    if (qty > 1) {
-      setQty(current => current - 1)
-      setBasketPrice(current => current - price)
-      setBasketQty(current => current - 1)
-    }
-  }
-
   return (
     <div className="ProductBasket">
 <img width="200px" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Porsche_Autobau_%28Ank_kumar%2C_Infosys_Limited%29_04.jpg" alt='Изображение товара' />
